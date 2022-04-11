@@ -1,0 +1,17 @@
+baseURL = "https://web1.nyc/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Web One LLC"
+theme = "hermit"
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+
+
+[params]
+    homeSubtitle="A home for the future of the web"
+
+[menu]
+
+  [[menu.main]]
+    name = "Contact"
+    url = "contact/"
+    weight = 10
